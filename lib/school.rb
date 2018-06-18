@@ -22,6 +22,7 @@ def sort
 roster.each do |grade,students|
   new_hash[grade] = students.sort
 end
+return new_hash
 end
 
 end
