@@ -4,6 +4,7 @@ class School
   def initialize(name)
     @name = name
     @roster = {}
+    @grade = []
   end
 
   def add_student(student,grade)
