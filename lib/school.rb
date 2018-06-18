@@ -12,3 +12,4 @@ if  roster[grade] != nil
     roster[grade] << student
 end
 end
+end
