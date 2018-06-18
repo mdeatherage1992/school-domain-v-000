@@ -18,7 +18,7 @@ def grade(grade)
   end
 
 def sort
-  return grade.sort
+  School.sort
 end
 
 end
