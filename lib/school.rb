@@ -7,9 +7,9 @@ class School
   end
 
   def add_student(student,grade)
-    if roster[grade] != nil
-    roster[grade] = []
-    roster[grade] << student
-end
-end
-end
+    if roster[grade] == nil
+        roster[grade] = []
+        roster[grade] << student
+      end
+    end
+  end
