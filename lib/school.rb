@@ -18,7 +18,7 @@ def grade(grade)
   end
 
 def sort
-  @roster.keys.sort
+  @roster.key[value].sort
 end
 
 end
