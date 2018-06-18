@@ -18,7 +18,7 @@ def grade(grade)
   end
 
 def sort
-  @roster.values.sort
+  @roster.sort_by{grade,name}
 end
 
 end
