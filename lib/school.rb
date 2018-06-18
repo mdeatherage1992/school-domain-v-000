@@ -19,3 +19,4 @@ def grade(grade)
 def sort
   roster[grade].sort
 end
+end
