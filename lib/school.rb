@@ -18,7 +18,8 @@ def grade(grade)
   end
 
 def sort
-  roster.sort_by{|grade,student| student}
+  roster.each do |grade|
+    grade.sort_by do {|grade,student| student}.to_h
 end
 
 end
