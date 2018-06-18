@@ -18,7 +18,7 @@ def grade(grade)
   end
 
 def sort
-  roster.sort_by{|grade,name|}
+  grade.sort_by{|name|}
 end
 
 end
