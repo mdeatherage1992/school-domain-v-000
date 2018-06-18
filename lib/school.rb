@@ -11,8 +11,4 @@ class School
     grade = roster[grade]
     roster[grade] << student
 end
-def grade(grade)
-  @grade = grade
-  return grade
-end
 end
