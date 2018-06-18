@@ -18,7 +18,7 @@ def grade(grade)
   end
 
 def sort
-  roster.keys.sort.each { |grade,students|  }
+  roster.keys.sort
 end
 
 end
