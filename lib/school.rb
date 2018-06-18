@@ -18,7 +18,7 @@ def grade(grade)
   end
 
 def sort
-  grade.sort_by{student}
+  grade.sort_by{|grade,student| student}
 end
 
 end
