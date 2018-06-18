@@ -18,7 +18,10 @@ def grade(grade)
   end
 
 def sort
-roster.each
+  new_hash = {}
+roster.each do |grade,students|
+  new_hash[grade] = students.sort
+end
 end
 
 end
