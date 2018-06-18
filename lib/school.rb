@@ -18,7 +18,7 @@ def grade(grade)
   end
 
 def sort
-roster.sort
+roster.each.sort
 end
 
 end
