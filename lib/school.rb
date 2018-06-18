@@ -10,6 +10,8 @@ class School
     if roster[grade] == nil
         roster[grade] = []
         roster[grade] << student
+      else
+        roster[grade] << student
       end
     end
   end
