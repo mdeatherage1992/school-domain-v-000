@@ -18,7 +18,7 @@ def grade(grade)
   end
 
 def sort
-  roster.grade.values.sort
+  grade.values.sort
 end
 
 end
