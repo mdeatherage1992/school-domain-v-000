@@ -15,3 +15,4 @@ def grade(grade)
   @grade = grade
   return grade
 end
+end
