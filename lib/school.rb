@@ -20,6 +20,8 @@ def grade(grade)
 def sort
   roster.each do |grade|
     grade.sort_by do {|grade,student| student}.to_h
+    end
+  end
 end
 
 end
