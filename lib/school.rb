@@ -18,7 +18,7 @@ def grade(grade)
   end
 
 def sort
-  sorted = @roster.grade.sort
+  return grade[student].sort
 end
 
 end
