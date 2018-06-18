@@ -11,4 +11,3 @@ class School
     roster[student] = [grade]
   end
 end
-end
