@@ -12,5 +12,6 @@ class School
     roster[grade] << student
   end
 def grade(grade)
-  return roster[grade]
+  @grade = grade
+  return grade
 end
