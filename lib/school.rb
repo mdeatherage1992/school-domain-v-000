@@ -8,7 +8,7 @@ class School
   end
   def add_student(student,grade)
     @roster = roster
-    roster => {student => grade}
+    roster[student] = [grade]
   end
 end
 end
