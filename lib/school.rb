@@ -18,7 +18,7 @@ def grade(grade)
   end
 
 def sort
-  return roster[roster.sort]
+  grade.sort_by{student}
 end
 
 end
